@@ -105,7 +105,10 @@ export default function App() {
                         </TouchableOpacity>
                     </View>
                     <View style={styles.containerTitle}>
-                        <Text style={styles.modalTitle}> Adicionar Tarefa</Text>
+                        <Text style={styles.modalTitle}>
+                            {" "}
+                            Adicionar Anotação
+                        </Text>
                     </View>
                     <View style={styles.modalBody}>
                         <TextInput
@@ -123,7 +126,7 @@ export default function App() {
                             onPress={handleAdd}
                         >
                             <Text style={styles.btnTextAddNote}>
-                                Cadastrar Tarefa
+                                Cadastrar Anotação
                             </Text>
                         </TouchableOpacity>
                     </View>
